@@ -1,0 +1,37 @@
+{
+    "name": "bolaa-node-mvc",
+    "version": "1.0.5",
+    "description": "一个基于Koa的MVC框架",
+    "mainTypes": "./src/index.d.ts",
+    "main": "./src/index.js",
+    "scripts": {
+        "test": "node ./test/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bolaa-zhenglei/node-mvc.git"
+    },
+    "keywords": [
+        "node",
+        "koa",
+        "mvc",
+        "bolaa"
+    ],
+    "author": "zhenglei",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/bolaa-zhenglei/node-mvc/issues"
+    },
+    "homepage": "https://github.com/bolaa-zhenglei/node-mvc#readme",
+    "dependencies": {
+        "extend2": "^1.0.0",
+        "is-array": "^1.0.1",
+        "koa": "^2.5.1",
+        "koa-body": "^4.0.4",
+        "koa-compose": "^4.1.0",
+        "mime": "^2.3.1",
+        "mssql": "^4.1.0",
+        "mysql": "^2.15.0",
+        "require-all": "^2.2.0"
+    }
+}
