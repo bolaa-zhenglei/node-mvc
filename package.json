@@ -4,6 +4,9 @@
     "description": "一个基于Koa的MVC框架",
     "mainTypes": "./src/index.d.ts",
     "main": "./src/index.js",
+    "bin": {
+        "mvc-install": "bin/install.js"
+    },
     "scripts": {
         "test": "node ./test/index.js"
     },
